@@ -1944,17 +1944,22 @@ SP2
   </extension>
 </addon>
 
-<addon id="repository.ffgpt5" name="FFGPT5 repo" version="1.0.0" provider-name="Wojtek (GPT)">
+<addon id="repository.ffgpt5" name="FFGPT5 repo" version="1.0.2" provider-name="Wojtek (GPT)">
   <extension point="xbmc.addon.repository" name="FFGPT5 repo">
     <dir minversion="21.0.0">
       <info compressed="false">https://ffgpt5.github.io/addons.xml</info>
       <checksum>https://ffgpt5.github.io/addons.xml.md5</checksum>
       <datadir zip="true">https://ffgpt5.github.io/zips21</datadir>
     </dir>
+    <dir minversion="19.0.0">
+      <info compressed="false">https://ffgpt5.github.io/addons.xml</info>
+      <checksum>https://ffgpt5.github.io/addons.xml.md5</checksum>
+      <datadir zip="true">https://ffgpt5.github.io/zips19</datadir>
+    </dir>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>Repo Wojtka (FanFilm GPT)</summary>
-    <description>Twoje repo z pełnym zestawem zależności.</description>
+    <description>Omega + Matrix: jeden manifest, dwa datadiry.</description>
     <platform>all</platform>
     <assets><icon>icon.png</icon></assets>
   </extension>
