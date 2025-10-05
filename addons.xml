@@ -1,5 +1,4 @@
 <addons>
-<?xml version="2025.10.05" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.ffgpt" name="FanFilm GPT" version="2025.08.17" provider-name="Wojtek (GPT)">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
@@ -307,7 +306,6 @@ SP2
     </extension>
 </addon>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="script.module.ptw" name="PTW Module" version="2025.08.17" provider-name="PTW(gpt)">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
@@ -329,7 +327,6 @@ SP2
     </extension>
 </addon>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.ffgpt5" name="FFGPT5 repo" version="1.0.0" provider-name="Wojtek (GPT)">
     <extension point="xbmc.addon.repository" name="FFGPT5 repo">
         <dir minversion="21.0.0">
