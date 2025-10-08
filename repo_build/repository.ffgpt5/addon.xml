@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.ffgpt5" name="FF GPT5 Repo" version="1.0.0" provider-name="ffgpt5">
+  <extension point="xbmc.addon.repository" name="FF GPT5 Repo">
+    <info compressed="false">https://ffgpt5.github.io/addons.xml</info>
+    <checksum>https://ffgpt5.github.io/addons.xml.md5</checksum>
+    <datadir zip="true">https://ffgpt5.github.io/zips21/</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="pl">Repozytorium FF GPT5</summary>
+    <description lang="pl">Repo dla plugin.video.ffgpt i zależności</description>
+    <platform>all</platform>
+  </extension>
+</addon>
